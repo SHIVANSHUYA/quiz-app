@@ -1,51 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Start Screen -->
-  <div id="start-screen" class="active">
-    <h1>Welcome to the Quiz By Shivanshu</h1>
-    <input type="text" id="student-name" placeholder="Enter your name" required>
-    <input type="text" id="student-class" placeholder="Enter your class" required>
-    <input type="text" id="student-section" placeholder="Enter your section" required>
-    <button id="start-btn">Start Quiz</button>
-  </div>
-
-  <!-- Quiz Container -->
-  <div id="quiz-container" class="hidden">
-    <div class="question-container">
-      <h2 id="question-text">What is the capital of France?</h2>
-      <div class="option">
-        <input type="radio" name="q1" value="Paris"> Paris
-      </div>
-      <div class="option">
-        <input type="radio" name="q1" value="London"> London
-      </div>
-      <div class="option">
-        <input type="radio" name="q1" value="Rome"> Rome
-      </div>
-      <button id="next-btn">Next</button>
+    <div id="bg">
+        <h1>Sheryians</h1>
     </div>
-  </div>
-
-  <!-- End Screen -->
-  <div id="end-screen" class="hidden">
-    <h1>Quiz Completed</h1>
-    <p>Thank you, <span id="student-info"></span>!</p>
-    <p>Your score is: <span id="final-score"></span>.</p>
-    <button id="finish-btn">Finish</button>
-  </div>
-
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
-
-  <script src="script.js"></script>
 </body>
 </html>
